@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89b62714-0ef2-4719-b754-53e5bb38547d" name="Default Changelist" comment="" />
+    <list default="true" id="0094cd1e-44c0-4e7f-9516-962524e435d6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +13,28 @@
       <executable />
     </execution>
   </component>
-  <component name="ProjectId" id="1R072SzPdP57pfH8ClntkHDRHgw" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RKUlq9pFCL52nZANlOagagBF46" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\untitled1" />
+      <recent name="C:\xampp\htdocs\untitled1\db_function" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\untitled1\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,13 +53,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="89b62714-0ef2-4719-b754-53e5bb38547d" name="Default Changelist" comment="" />
-      <created>1568791951911</created>
+      <changelist id="0094cd1e-44c0-4e7f-9516-962524e435d6" name="Default Changelist" comment="" />
+      <created>1569415440763</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568791951911</updated>
-      <workItem from="1568791956823" duration="148000" />
-      <workItem from="1568792340577" duration="327000" />
+      <updated>1569415440763</updated>
+      <workItem from="1569415452701" duration="901000" />
+      <workItem from="1569417461790" duration="569000" />
+      <workItem from="1569418045031" duration="6000" />
     </task>
     <servers />
   </component>
