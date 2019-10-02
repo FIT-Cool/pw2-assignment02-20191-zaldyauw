@@ -1,25 +1,30 @@
 <?php
-//For data fetch
-$id= filter_input(INPUT_GET, 'id');
+$id = filter_input(INPUT_GET, 'id');
 if (isset($id)) {
     $insurance = getInsurance($id);
 }
 
-//For Update
-$input = filter_input(INPUT_POST, "btnUpdate");
-if (isset($input)) {
+$submitted = filter_input(INPUT_POST, 'btnUpdate');
+if (isset($submitted)) {
     $name = filter_input(INPUT_POST, 'txtName');
-    updateInsurance($id, $name);
-    header("location:index.php?menu=ins");
+    updateInsurance( $id    , $name);
+
+    header("location:index.php?menu=i");
 }
 ?>
 
-<form method="post">
+<form method="post" id="usrform">
     <fieldset>
-        <legend> Update Insurance</legend>
-        <label> nama asuransi </label>
-        <input type="text" name="txtName" id="genreId" placeholder="Name (isidisini)" autofocus required
-               class="form-input" value="<?php echo $insurance['name_class']; ?>">
-        <input type="submit" name="btnUpdate" value="Update Insurance" class="button button-primary">
+        <legend>Update Insurance</legend>
+        <label for="txtNameIdx" class="form-label"></label>
+
+        <b>Class Name</b><br>
+        <input type="text" id="txtNameIdx" name="txtName"
+               placeholder="Class Name" autofocus required
+               class="form-input" size="80"
+               value="<?php echo $insurance['name_class']?>"><br><br>
+        <br>
+
+        <input type="submit" name="btnUpdate" value="Update Insurance" class="button-primary">
     </fieldset>
 </form>

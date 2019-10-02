@@ -24,7 +24,7 @@
   <component name="ProjectId" id="1RKUlq9pFCL52nZANlOagagBF46" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pwl4-master/pwl4-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +61,8 @@
       <workItem from="1569415452701" duration="901000" />
       <workItem from="1569417461790" duration="569000" />
       <workItem from="1569418045031" duration="6000" />
+      <workItem from="1569486302000" duration="5508000" />
+      <workItem from="1570017438927" duration="1558000" />
     </task>
     <servers />
   </component>
